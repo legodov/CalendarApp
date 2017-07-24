@@ -7,20 +7,19 @@ var eventList = [{
   },
   {
     date: "2017-07-22",
+    eventId: 0,
+    event: "Parent's birthday",
+    description: "Yeah, both of them. Mom wanted a new bag — have no idea where to get one. Zara? Will see. Anyway, yeah, both of them, same day. Have to check those homeworks though."
+  },
+  {
+    date: "2017-07-22",
     eventId: 1,
     event: "Friends' party",
     description: "Go see some friends since you're visiting Ternopil, grab some beer, talk about life and how everything is shit.",
     participants: [{
-        name: "Volodymyr Stoyko",
-        url: "https://www.facebook.com/corest",
-        avatar: "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/19959082_10210721389766187_6789533543778955899_n.jpg?oh=204032e8f826891d02c566e5cdcdf384&oe=59C40BCC"
-      },
-      {
-        date: "2017-07-22",
-        eventId: 0,
-        event: "Parent's birthday",
-        description: "Yeah, both of them. Mom wanted a new bag — have no idea where to get one. Zara? Will see. Anyway, yeah, both of them, same day. Have to check those homeworks though."
-      }
-    ]
+      name: "Volodymyr Stoyko",
+      url: "https://www.facebook.com/corest",
+      avatar: "https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/19959082_10210721389766187_6789533543778955899_n.jpg?oh=204032e8f826891d02c566e5cdcdf384&oe=59C40BCC"
+    }]
   }
 ]
