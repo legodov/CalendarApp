@@ -38,5 +38,5 @@ function getEventFormHtml(es) { // events
 }
 
 function getEventFormIfNoEventsHtml() {
-  return getHeaderHtml() + getEventFormWithParameters("Empty", "Event list is empty!") + getActionsHtml();
+  return getHeaderHtml() + getEventFormWithParameters("Empty", "Event list is empty!") + '</div></div>' + getActionsHtml();
 }
